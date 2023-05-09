@@ -9,7 +9,7 @@ from components.games.room import startGame
 
 try:
     
-    option = "",
+    option = "", 
     isPlaying = True
 
     print("Bienvenido al Juego de acertijos matematicos, que deseas hacer?")
