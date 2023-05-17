@@ -15,4 +15,4 @@ def ecuation1():
 
     except:
         print(f"Mal, el valor debe ser númerico, la respuesta correta es: {expectedResult}")
-        return 0
+        return failPoints

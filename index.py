@@ -5,21 +5,21 @@
 from components.register.register import registerUser
 from components.score.score import watchScore
 from components.games.room import startGame
-
+from utils.colors.colors import bcolors
 
 try:
     
     option = "", 
     isPlaying = True
 
-    print("Bienvenido al Juego de acertijos matematicos, que deseas hacer?")
+    print(bcolors.OKBLUE + "\nBienvenido al Juego de acertijos matematicos, que deseas hacer?\n" + bcolors.ENDC)
 
     while(isPlaying):
 
-        print("1. Registrar jugador")
-        print("2. Verificar puntuaciones")
-        print("3. Jugar")
-        print("4. Salir")
+        print(bcolors.OKBLUE + "1.- " + bcolors.ENDC + "Registrar jugador")
+        print(bcolors.OKBLUE + "2.- " + bcolors.ENDC + "Verificar puntuaciones")
+        print(bcolors.OKBLUE + "3.- " + bcolors.ENDC + "Jugar")
+        print(bcolors.OKBLUE + "4.- " + bcolors.ENDC + "Salir")
 
         option = input("\n")
 
